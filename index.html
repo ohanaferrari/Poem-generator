@@ -7,16 +7,17 @@
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
+    <div class="container">
   <header>
 <h1>Welcome to the Sarcastic Poem Generator</h1>
   </header>
   <main>
     <form>
         <input type="text" id="inputText" placeholder="Enter a topic for your poem" autofocus required />
-        <button type="submit" id="generateButton">Generate Poem</button>
+        <button type="submit" id="generateButton">Generate</button>
     </form>
     <br />
-<p id="poem-container"><strong>Tiny Tribute</strong>    <br />
+<p class="poem"><strong>Tiny Tribute</strong>    <br />
 
 Poems are great—    <br />
 
@@ -35,6 +36,7 @@ or wildly wrong.</p>    <br />
           <a href="https://sarcastic-poem-generator.netlify.app/" target="_blank">hosted on Netlify</a>
         </p>
       </footer>
+    </div>
       </div>
       <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
       <script src="src/script.js"></script>
