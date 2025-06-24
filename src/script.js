@@ -3,9 +3,9 @@ function generatePoem(event) {
 
 new Typewriter(".poem", {
     strings: "La tombe dit à la rose :<br>« Tu es belle, mais tu es éphémère. »<br>La rose répond :<br>« La beauté est un cadeau, même s'il est fugace. »",
-    autostart: true,
+    autoStart: true,
     loop: false,
-    delay: 50, 
+    delay: 1, 
 });
 }
 
